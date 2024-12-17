@@ -21,7 +21,7 @@ def get_resource_estimates():
 
     # Run the Q# operation and get resource estimates
     res = qsharp.estimate(
-        "grover.Main",
+        "g.Main",
         params=params
     )
 
